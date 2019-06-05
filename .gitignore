@@ -9,6 +9,9 @@ chains.json
 config/production/password
 config/livenet/password
 
+# crytic
+crytic-export/
+
 # egg-related
 viper.egg-info/
 build/
