@@ -15,5 +15,5 @@ See more information about Embark framework here: https://embark.status.im/
 
 ### Tribute to talk
 - Idea #96 Tribute to Talk - [Link](https://ideas.status.im/ideas/96-message-tributes)
-- Documentation: [TributeToTalk.md](TributeToTalk.md)
+- Documentation: [TributeToTalk.md](docs/TributeToTalk.md)
 - Running test - After executing `embark run` to compile the contracts, `node test/messageSigned-test.js`  This will be changed in the future to run with `embark test` 
