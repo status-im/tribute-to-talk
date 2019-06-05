@@ -1,0 +1,33 @@
+{
+    "elapsed": 176403,
+    "issues": [
+        {
+            "issues": [],
+            "sourceType": "solidity-file",
+            "sourceFormat": "text",
+            "sourceList": [
+                "./contracts/communication/MessageTribute.sol",
+                "./contracts/common/Controlled.sol"
+            ],
+            "meta": {
+                "coveredInstructions": 608,
+                "coveredPaths": 16,
+                "selectedCompiler": "Unknown"
+            }
+        }
+    ],
+    "status": {
+        "apiVersion": "v1.4.18",
+        "clientToolName": "mythos",
+        "harveyVersion": "0.0.23",
+        "maestroVersion": "1.2.16",
+        "maruVersion": "0.4.8",
+        "mythrilVersion": "0.20.8",
+        "queueTime": 12905,
+        "runTime": 137004,
+        "status": "Finished",
+        "submittedAt": "2019-06-05T16:41:26.180Z",
+        "submittedBy": "5cf6c23f5b7afd001944d1a4",
+        "uuid": "85f8c2d2-27c6-4426-aebf-8136017370b5"
+    }
+}

@@ -20,6 +20,7 @@
     "elliptic": "^6.4.0"
   },
   "dependencies": {
+    "@trailofbits/embark-contract-info": "^1.1.0",
     "elliptic-curve": "^0.1.0",
     "embark": "^3.0.0",
     "ethereumjs-util": "^5.1.5",

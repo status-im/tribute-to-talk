@@ -1,0 +1,18 @@
+slither ./contracts/communication/MessageTribute.sol
+INFO:Detectors:
+Controlled.changeController (./contracts/common/Controlled.sol#19-21) should be declared external
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#public-function-that-could-be-declared-as-external
+INFO:Detectors:
+Detected issues with version pragma in ./contracts/communication/MessageTribute.sol:
+	- pragma solidity>=0.5.0<0.6.0 (./contracts/common/Controlled.sol#1): it allows old versions
+	- pragma solidity>=0.5.0<0.6.0 (./contracts/communication/MessageTribute.sol#1): it allows old versions
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#incorrect-version-of-solidity
+INFO:Detectors:
+Parameter '_newController' of Controlled.changeController (./contracts/common/Controlled.sol#19) is not in mixedCase
+Parameter '_value' of MessageTribute.setTribute (./contracts/communication/MessageTribute.sol#17) is not in mixedCase
+Parameter '_stopped' of MessageTribute.setStopped (./contracts/communication/MessageTribute.sol#24) is not in mixedCase
+Parameter '_of' of MessageTribute.getTribute (./contracts/communication/MessageTribute.sol#33) is not in mixedCase
+Parameter '_of' of MessageTribute.setTribute (./contracts/communication/MessageTribute.sol#44) is not in mixedCase
+Parameter '_value' of MessageTribute.setTribute (./contracts/communication/MessageTribute.sol#44) is not in mixedCase
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#conformance-to-solidity-naming-conventions
+INFO:Slither:./contracts/communication/MessageTribute.sol analyzed (2 contracts), 8 result(s) found

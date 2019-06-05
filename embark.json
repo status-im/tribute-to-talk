@@ -9,5 +9,9 @@
     "ipfs-api": "17.2.4",
     "p-iteration": "1.1.7"
   },
-  "plugins": {}
+  "plugins": {
+    "@trailofbits/embark-contract-info": {
+      "flags": ""
+    }
+  }
 }
